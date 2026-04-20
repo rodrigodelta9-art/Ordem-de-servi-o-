@@ -1998,7 +1998,14 @@
             doc.setFontSize(11);
             doc.setFont("helvetica", "bold");
             doc.text("⚠️ AVISO IMPORTANTE - POLÍTICA DE ABANDONO", 105, 118, {align:"center"});
-            
+            doc.setFontSize(12); doc.text("TERMOS DE GARANTIA (CDC):", 20, 125);
+            const termos = [
+                "1. Garantia de 90 dias apenas para os itens descritos acima.",
+                "2. PERDA DE GARANTIA: Quedas, trincas (mesmo internas no LCD), contato com líquidos ou selos rompidos.",
+                "3. TELAS: Manchas roxas/pretas ou listras indicam pressão excessiva e não possuem garantia.",
+                "4. VEDAÇÃO: Aparelhos abertos perdem a vedação original de fábrica contra água.",
+                "5. ABANDONO: Aparelhos não retirados em 90 dias serão vendidos p/ custeio (Art 1275 CC)."
+            ];
             doc.setFontSize(9);
             doc.setFont("helvetica", "normal");
             doc.text("Aparelhos não retirados em 90 DIAS serão VENDIDOS para custeio (Art. 1275 CC).", 105, 127, {align:"center", maxWidth: 170});
